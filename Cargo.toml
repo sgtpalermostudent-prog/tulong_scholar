@@ -1,0 +1,16 @@
+[workspace]
+members = [
+    "contracts/tulong_scholar",
+]
+resolver = "2"
+
+[workspace.dependencies]
+soroban-sdk = { version = "21.0.0" }
+
+[profile.release]
+opt-level = "z"
+overflow-checks = true
+debug = 0
+strip = "symbols"
+lto = true
+codegen-units = 1
