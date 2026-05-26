@@ -1,5 +1,7 @@
 # TulongScholar 🎓
 
+![TulongScholar](contracts/STELLAR.png)
+
 > **On-chain scholarship disbursement for Filipino university students — no bank account required.**
 
 ---
